@@ -25,13 +25,16 @@ console.log(twoDimensionalProduct(arr2)); // 88
 
 */
 
+
+// will need a reduce method inside a reduce method to get the innner array products then times that to the total array product
+
 let twoDimensionalProduct = function(arr) {
-    // Your code here
+  // Your code here
 };
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
-    module.exports = twoDimensionalProduct;
+  module.exports = twoDimensionalProduct;
 } catch (e) {
-    module.exports = null;
+  module.exports = null;
 }
