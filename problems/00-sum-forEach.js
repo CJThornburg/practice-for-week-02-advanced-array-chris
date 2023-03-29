@@ -11,9 +11,41 @@ console.log(sumForEach([6, 7, 2])); // 15
 console.log(sumForEach([])); // 0
 */
 
+// I don't like this example because you end up returning a single value not altering the originally array
+// reduce would be better for this...
+
+
+
+
 let sumForEach = function(arr) {
-  // Your code here
+let sum = 0
+
+
+ arr.forEach(function(num){
+sum += num;
+ } )
+
+
+ return sum
 };
+
+console.log(sumForEach([1,2,3]));  //6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
